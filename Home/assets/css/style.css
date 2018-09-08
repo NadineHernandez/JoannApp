@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d6d6d6;
+    font-size: 150%;
+}
+
+.top {
+    background-color: #73bd00;
+    padding: 25px;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: bold;
+    position: relative;
+}
+
+.home {
+    padding: 15px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    float: right;
+}
+
+.homelink {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #a3a3a3;
+    background-color: white;
+    position: relative;
+}
+
+.info {
+    padding: 20px;
+    font-weight: bold;
+    color: #898989;
+}
+
+.spacer {
+    background-color: #a3a3a3;
+    height: 3px;
+    width: 90%;
+    margin: auto;
+}
+
+.content {
+    padding: 20px;
+    line-height: 1.5;
+}
+
+#homeimg {
+    width: 45%;
+    padding: 5% 25% 0 25%;
+}
+
+.toclink {
+    color: #73bd00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 125%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.toc {
+    background-color: white;
+    padding: 3% 0%;
+    width: 95%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #73bd00;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.linkbox {
+    margin: 0 auto;
+    text-align: center;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.push {
+    padding: 30px;
+}
+
+.announcement {
+    padding: 5%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #73bd00;
+    margin: 5%;
+}
+
+.machinelogo {
+    margin: 0 auto;
+}
+
+.machinelogoimg {
+    width: 75%;
+    padding: 5% 10% 0 10%;
+}
+
+.machineimg {
+    width: 50%;
+}
+
+.machineimgcontainer {
+    text-align: center;
+}
+
+.machinename {
+    text-align: center;
+    font-size: 300%;
+}
+
+.machinenamebox {
+    width: 100%;
+    padding: 5%;
+    background-color: #a3a3a3;
+    margin: 2% auto 0 auto;
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #898989;
+}
+
+.machineinfocontent {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #73bd00;
+    width: 89%;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.infolisttitle {
+    font-size: 150%;
+    font-weight: bold;
+    padding: 3% 0 1% 0;
+    text-align: center;
+    color: #898989;
+    text-decoration: underline;
+}
+
+.infolistcontent {
+    text-align: center;
+}
+
+.brandproductstoggle {
+    text-align: center;
+    font-size: 150%;
+    color: #73bd00;
+    width: 80%;
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #73bd00;
+    padding: 1%;
+    margin: 0 9%;
+}
