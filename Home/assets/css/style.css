@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-    width: 85%;
+    width: 90%;
     margin: auto;
     border-style: solid;
     border-width: 3px;
@@ -80,6 +80,7 @@ body {
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
+    border-radius: 10px;
 }
 
 .linkbox {
@@ -127,18 +128,21 @@ a:visited {
 .machinename {
     text-align: center;
     font-size: 300%;
+    color: white;
+    font-weight: bold;
 }
 
 .machinenamebox {
     width: 100%;
     padding: 5%;
-    background-color: #a3a3a3;
+    background-color: #d6d6d6;
     margin: 2% auto 0 auto;
     color: white;
     font-weight: bold;
     border-style: solid;
     border-width: 3px;
     border-color: #898989;
+    border-radius: 10px;
 }
 
 .machineinfocontent {
@@ -174,4 +178,40 @@ a:visited {
     border-color: #73bd00;
     padding: 1%;
     margin: 0 9%;
+    border-radius: 10px;
+}
+
+.warrantybox {
+    padding: 5%;
+    width: 85%;
+    margin: 3% auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #73bd00;
+}
+
+.warrantyinfo {
+    padding: 1%;
+    width: 98%;
+    margin: 0 auto;
+    font-size: 150%;
+    text-align: center;
+    font-weight: bold;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+}
+
+.warrantyexplained {
+    width: 100%;
+    margin: 0 auto;
+    color: #898989;
+    text-align: center;
+    font-size: 75%;
+}
+
+.warrantymachines {
+    font-size: 150%;
+    font-weight: bold;
+    padding: 2%;
+    text-align: center;
 }

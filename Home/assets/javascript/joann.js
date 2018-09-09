@@ -2,14 +2,15 @@ var machinecontentarr = ["start1304content", "tradition2277content", "simple3223
 "sm1738content", "xs2080content", "cs7205content", "pq1500slcontent", 
 "arcticcrystalcontent", "hd1000content", "mod100qcontent", 
 "dx7content", "g220content", "mcs1500content", "mo1000content", 
-"emerald116content", "jade20content", "opal650content", "opal690qcontent", "sapphire930content", "saphhire965qcontent", "jade35content", "topaz50content", "rubycontent", "epiccontent", "huskylocks25content",]
+"emerald116content", "jade20content", "opal650content", "opal690qcontent", "sapphire930content", "saphhire965qcontent", "jade35content", "topaz50content", "rubycontent", "epiccontent", "huskylocks25content", 
+"qnique15rcontent"];
 //var machinenamearr = ["start1304", "tradition2277", "simple3232", "simple3223", "fashionmate3342", "confidence7363", "heavyduty4452", "profinish14cg754", "patchwork7285q", "featherweightc240", "superbem200", 
 //"sm1738", "xs2080", "cs7205", "pq1500sl", 
 //"arcticcrystal", "hd1000", "mod100q", 
 //"dx7", "g220", "mcs1500", "mo1000", 
 //"emerald116", "jade20", "opal650", "opal690q", "sapphire930", "saphhire965q", "jade35", "topaz50", "ruby", "epic", "huskylocks25",]
 
-var brandidarr = ["singerbrand", "brotherbrand", "janomebrand", "jukibrand", "vikingbrand"];
+var brandidarr = ["singerbrand", "brotherbrand", "janomebrand", "jukibrand", "vikingbrand", "gracebrand"];
 //var plusarr = ["+ Singer Products (11)", "+ Brother Products (4)", "+ Janome Products (3)", "+ Juki Products (4)", "+ Viking Products (11)"];
 //var minusarr = ["- Singer Products (11)", "- Brother Products (4)", "- Janome Products (3)", "- Juki Products (4)", "- Viking Products (11)"];
 
@@ -27,7 +28,7 @@ var startidhider;
      //need to make a loop to apply this to each machine
     start: function () {
         for (var i=0; i < machinecontentarr.length; i++) {
-        //for (var i=0; i < 33; i++) {
+        //for (var i=0; i < 34; i++) {
             startcontent = machinecontentarr[i];
             starthider = document.getElementById(startcontent);
             starthider.style.display = "none";
@@ -35,7 +36,7 @@ var startidhider;
     },
 
     startbrand: function() {
-        for (var i=0; i < 5; i++) {
+        for (var i=0; i < 6; i++) {
             startidcontent = brandidarr[i];
             startidhider = document.getElementById(startidcontent);
             startidhider.style.display = "none";
