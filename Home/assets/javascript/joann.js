@@ -1,3 +1,5 @@
+window.onload = function() {
+
 var machinecontentarr = ["start1304content", "tradition2277content", "simple3223content", "simple3232content", "fashionmate3342content", "confidence7363content", "heavyduty4452content", "profinish14cg754content", "patchwork7285qcontent", "featherweightc240content", "superbem200content", 
 "sm1738content", "xs2080content", "cs7205content", "pq1500slcontent", 
 "arcticcrystalcontent", "hd1000content", "mod100qcontent", 
@@ -74,3 +76,5 @@ $(".brandproductstoggle").on("touchstart", function() {
         brandlistbyid.style.display = "none";
     }
 })
+
+};
