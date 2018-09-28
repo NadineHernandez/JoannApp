@@ -163,6 +163,14 @@ a:visited {
     text-decoration: underline;
 }
 
+.joannLink {
+    font-weight: bold;
+    padding: 3% 0 1% 0;
+    text-align: center;
+    color: #898989;
+    text-decoration: underline;
+}
+
 .infolistcontent {
     text-align: center;
 }
